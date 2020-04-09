@@ -1,0 +1,58 @@
+.dropdown {
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-toggle {
+    font-family: "Amiri", serif;
+    font-size: 16px;
+    width: 203px;
+    opacity: 0.9;
+    background-color: #8C736B;
+    box-shadow: none;
+
+    &:active,
+    &:focus {
+        background-color: #8C736B;
+        outline: none;
+    }
+}
+
+.show>.btn-secondary.dropdown-toggle {
+    font-family: "Amiri", serif;
+    font-size: 16px;
+    width: 203px;
+    opacity: 0.8;
+    background-color: #8C736B;
+    border: #8C736B;
+    opacity: 0.9;
+}
+
+.dropdown-menu.show {
+    background-color: #8C736B;
+    opacity: 0.9;
+}
+
+.dropdown-item {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.go-back {
+    position: absolute;
+    bottom: 2.4rem;
+    left: 2rem;
+    background: none;
+    border: none;
+    box-shadow: none;
+    background-color: #8C736B;
+    opacity: 0.2;
+    border-radius: 3px;
+    width: 80px;
+    height: 35px;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}

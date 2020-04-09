@@ -1,0 +1,17 @@
+<div class="side-bar">
+    <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ currentLocation }}
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <option 
+                class="dropdown-item" 
+                href="#" 
+                *ngFor="let marker of markers" 
+                [value]='marker'
+                (click)='onClick(marker)'
+                >{{ marker.label }}</option>
+        </div>
+    </div>
+    <button class="go-back text-uppercase btn" [routerLink]="['/home']">back</button>
+</div>

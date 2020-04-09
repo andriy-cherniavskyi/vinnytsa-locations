@@ -1,0 +1,12 @@
+<div class="app-container">
+    <app-side-bar (markerClicked)="onMarkerClicked($event)"></app-side-bar>
+    <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+        <agm-marker 
+            [latitude]="lat"
+            [longitude]="lng">
+            <agm-info-window>
+                <strong>{{defaultLabel}}</strong>
+            </agm-info-window>
+        </agm-marker>
+    </agm-map>
+</div>

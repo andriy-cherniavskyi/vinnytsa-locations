@@ -1,0 +1,26 @@
+.container-main {
+    justify-content: center;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    padding: 0.5rem 2rem;
+    width: 100%;
+    margin: 0;
+    background-color: #8C736B;
+    font-family: "Amiri", serif;
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+
+    .logo-img {
+        width: 60px;
+        height: 60px;
+        opacity: 1;
+    }
+}
+
+app-map {
+    width: 100%;
+}

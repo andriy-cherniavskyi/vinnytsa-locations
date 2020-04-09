@@ -1,0 +1,15 @@
+.app-container {
+    justify-content: space-between;
+    display: flex;
+    padding: 2.4rem;
+    background-color: #e9e1cc;
+}
+
+app-side-bar {
+    margin-right: 15px;
+}
+
+agm-map {
+    height: 600px;
+    width: 100%;
+}
